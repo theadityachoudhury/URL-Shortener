@@ -1,0 +1,419 @@
+body{
+    margin: 0px;
+    background: #ececec;
+    font-family: sans-serif;
+}
+.side{
+    background: linear-gradient(0, #0748a6 40%, #0656ca 50%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    font-size: 1.75em;
+    z-index: 100;
+}
+.side .side-icon{
+    background: #0656ca;
+    font-family: sans-serif;
+    padding: 0.45em;
+    color: white;
+    margin-bottom: 20px;
+}
+.side .side-top-link{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: grid;
+}
+.side .side-foot-link{
+    position: absolute;
+    bottom: 0.5em;
+    left: 0;
+    right: 0;
+    display: grid;
+}
+.side a{
+    color: white;
+    font-size: 22.5px;
+    padding: 15px;
+    background:transparent;
+    transition: all 0.25s;
+}
+.side a.active{
+    background: #2c6cca;
+}
+.side a:hover{
+    color: white;
+    background: #2c6cca;
+    padding: 15px;
+    font-size: 22.5px;
+    transition: all 0.25s;
+}
+
+/*
+CSS Page
+*/
+.content{
+    margin-left: 4.1em;
+    padding: 1em;
+    background: #f7f7f7;
+}
+.content-title{
+    margin-left: 4.1em;
+    padding: 1em;
+    background: #fff;
+}
+table{
+    width: 100%;
+}
+.panel{
+    background: #ffffff;
+    border: 1px solid #0656ca;
+    border-radius: 3px;
+}
+.panel .panel-heading{
+    background: #0656ca;
+    padding: 10px;
+    color: white;
+}
+.panel .panel-crazy{
+    background: #ffffff;
+    border: 1px solid #6701bd;
+    border-radius: 3px;
+}
+.panel .panel-crazy .panel-heading{
+    background: #6701bd;
+    padding: 10px;
+    color: white;
+}
+.panel .panel-danger{
+    background: #ffffff;
+    border: 1px solid #e30d0d;
+    border-radius: 3px;
+}
+.panel .panel-danger .panel-heading{
+    background: #e30d0d;
+    padding: 10px;
+    color: white;
+}
+.panel .panel-success{
+    background: #ffffff;
+    border: 1px solid #1dbd00;
+    border-radius: 3px;
+}
+.panel .panel-success .panel-heading{
+    background: #1dbd00;
+    padding: 10px;
+    color: white;
+}
+.panel .panel-sun{
+    background: #ffffff;
+    border:1px solid #dcc00b;
+    border-radius: 3px;
+}
+.panel .panel-sun .panel-heading{
+   background: #dcc00b;
+    padding: 10px;
+    color: white;
+}
+.panel .panel-content{
+    padding: 10px;
+    color: #191919;
+}
+/*
+Dashboard Page
+*/
+.infobox{
+    background: linear-gradient(45deg, #0656ca 15%, #0d65e4 50%);
+    color: white;
+    padding-top: 1.45em;
+    padding-left: 20px;
+    padding-bottom: 2em;
+    height: 2em;
+    width: 20em;
+    border-radius: 5px;
+}
+.infobox-danger{
+    background: linear-gradient(45deg, #ca0606 15%, #e40d0d 50%);
+    color: white;
+}
+.infobox-success{
+    background: linear-gradient(45deg, #21bd05 15%, #1dbd00 50%);
+    color: white;
+}
+.infobox-crazy{
+    background: linear-gradient(45deg, #5405bd 15%, #7400bd 50%);
+    color: white;
+}
+.infobox-sun{
+    background: linear-gradient(45deg, #dccc0b 15%, #dcb90b 50%);
+    color: white;
+}
+.infobox .icon{
+    float: left;
+    font-size: 3em;
+}
+.infobox .title{
+    text-align: right;
+    margin-right: 15px;
+    color: #f7f7f77d;
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+}
+.infobox .number{
+    text-align: right;
+    font-size: 4vh;
+    padding: 10px;
+}
+/*
+404 Page
+*/
+.p404{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+}
+.p404 h1{
+    font-size: 15em;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(#043bb7, #1159fd);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p404 h4{
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 0;
+    color: #333333;
+}
+.p404 p{
+    color: #333333;
+}
+
+/*
+Responsive Container and ROW or Col
+*/
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container, .container-sm {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container, .container-sm, .container-md {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1140px;
+    }
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+  .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+  .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+  .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+  .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+  .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  
+  .row-cols-1 > * {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .row-cols-2 > * {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .row-cols-3 > * {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  
+  .row-cols-4 > * {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .row-cols-5 > * {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  
+  .row-cols-6 > * {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  
+  .col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .col-1 {
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+  }
+  
+  .col-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+  
+  .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: fit-content;
+    padding-bottom: 10px;
+  }
+  
+  .col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  
+  .col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  
+  .col-6 {
+    -ms-flex: 0 0 47.43723106%;
+    flex: 0 0 47.43723106%;
+    max-width: 100%;
+  }
+  
+  .col-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+  
+  .col-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+  
+  .col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  
+  .col-10 {
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+  
+  .col-11 {
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+  }
+  .col-12 {
+    -ms-flex: 0 0 98.299999%;
+    flex: 0 0 98.299999%;
+    max-width: 98.299999%;
+  }

@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    background: linear-gradient(45deg, #00d1b2 21px, #00c7aa 1%) center, #ffffff;
+    background-size: 30px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    padding-top: 5em;
+    max-width: 480px;
+    width: 480px;
+    position: relative;
+    margin-left: 45em;
+    margin-right: 45em;
+}
+@media(max-width:1500px) {
+    .content{
+        padding-top: 5em;
+        max-width: -webkit-fill-available;
+        width: -webkit-fill-available;
+        position: relative;
+        margin-left: 0;
+        margin-right: 0;
+    }   
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 15em;
+}
+.form{
+    background: white;
+    box-shadow: 0px 0px 5px 0px #00000030;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 2em;
+}
+.form h4 {
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #00d1b21f;
+}
+.form label{
+    color: #383838;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    display: flex;
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: 1px solid #00d1b2;
+    border-radius: 5px;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    display: flex;
+    width: -webkit-fill-available;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #00d1b2;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    justify-content: center;
+}
+.donthaveaccount{
+    text-align: center;
+    color: #696969;
+}
+.donthaveaccount a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.donthaveaccount a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.forgotpassword{
+    text-align: center;
+}
+.forgotpassword a{
+    text-decoration: none;
+    color: #696969;
+}
