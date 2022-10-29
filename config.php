@@ -9,7 +9,7 @@
  * SQL Configuration
  * Edit your SQL configuration for the install page
 **/
-define('QB_DB_HOST', 'localhost');
-define('QB_DB_NAME', 'quixelurl');
-define('QB_DB_USER', 'root');
-define('QB_DB_PASSWORD', '');
+define('QB_DB_HOST', 'sql12.freesqldatabase.com');
+define('QB_DB_NAME', 'sql12530120');
+define('QB_DB_USER', 'sql12530120');
+define('QB_DB_PASSWORD', 'UkNQCi2FvM');
