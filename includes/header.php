@@ -30,9 +30,9 @@ define('QB_SHORTURL', $DeclareDefine['webshort']);
         <title><?= QB_WEBTITLE; ?> &mdash; <?= QB_WEBDESC; ?></title>
         <meta name="description" content="Made with QuixelURL">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/<?= QB_SITEURI; ?>/assets/css/bulma.css">
-        <link rel="stylesheet" href="/<?= QB_SITEURI; ?>/assets/css/main.css">
-        <link rel="stylesheet" href="/<?= QB_SITEURI; ?>/assets/css/all.css">
+        <link rel="stylesheet" href="//<?= QB_SITEURI; ?>assets/css/bulma.css">
+        <link rel="stylesheet" href="//<?= QB_SITEURI; ?>assets/css/main.css">
+        <link rel="stylesheet" href="//<?= QB_SITEURI; ?>assets/css/all.css">
     </head>
     <body>
         <!--[if lt IE 7]>
